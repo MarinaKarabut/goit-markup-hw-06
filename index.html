@@ -395,7 +395,6 @@
        <div class="subscribtion">
         <p class="title">Подпишитесь на рассылку</p>
         <form action="" class="subscribtion-form">
-          <label for="user-name"></label>
           <input class="subscribtion-footer" type="email" name="email" placeholder="E-mail">
           <button class="subscribtion-button-footer" type="submit">Подписаться
             <svg class="icon-subscribtion-button-footer">
@@ -407,8 +406,39 @@
       </div>
     </div> 
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal" >
+      <div class="modal">
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="">
+          <label for="name">
+            <span>Имя</span>
+            <input class="" type="text" name="name" id="name" placeholder="">
+            <svg width="12" height="12">
+              <use href="./img/symbol-defs2.svg#icon-person-black-18dp-1"></use>
+            </svg>
+          </label>
+          <label for="tel">
+            <span>Телефон</span>
+            <input class="" type="tel" name="tel" id="tel" placeholder="">
+            <svg width="13" height="13">
+              <use href="./img/symbol-defs2.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+          </label>
+          <label for="mail">
+            <span>Почта</span>
+            <input class="" type="email" name="mail" id="mail">
+            <svg width="15" height="12">
+              <use href="./img/symbol-defs2.svg#icon-email-black-18dp-1"></use>
+            </svg>
+          </label>
+          <label for="comment">
+            <span>Комментарий</span>
+            <input class="" type="comment" name="comment" id="comment" placeholder="Введите текст">
+          </label>
+          <button type="submit">Отправить</button>
+      </form>
+        
         <button class="close-button" type="button" aria-label="Закрыть окно" data-modal-close>
           <svg class="icon-close">
           <use href="./img/symbol-defs2.svg#icon-close-black-18dp-2-1"></use>
