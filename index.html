@@ -394,7 +394,7 @@
 
        <div class="subscribtion">
         <p class="title">Подпишитесь на рассылку</p>
-        <form action="" class="subscribtion-form">
+        <form action="#" class="subscribtion-form">
           <input class="subscribtion-footer" type="email" name="email" placeholder="E-mail">
           <button class="subscribtion-button-footer" type="submit">Подписаться
             <svg class="icon-subscribtion-button-footer">
@@ -410,32 +410,35 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         
-        <form action="" class="form-field" autocomplete="on">
+        <form action="#" class="form-field" autocomplete="on">
           <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-          <label class="contact-form-field contract-terms1" for="name">Имя
+          <label class="contact-form-field contract-terms1" for="name">
+            <span>Имя</span>
             <span class="contacts-input-wrapper">
               <input class="contacts-input" type="text" name="name" id="name" minlength="2">
-              <svg class="icon" width="12" height="12">
+              <svg class="icon" width="18" height="18">
                 <use href="./img/symbol-defs2.svg#icon-person-black-18dp-1"></use>
               </svg>
             </span>
           </label>
             
 
-          <label class="contact-form-field contract-terms1" for="tel">Телефон
+          <label class="contact-form-field" for="tel">
+            <span class="contract-terms1">Телефон</span>
             <span class="contacts-input-wrapper">
               <input class="contacts-input" type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
-              <svg class="icon" width="13" height="13">
+              <svg class="icon" width="18" height="18">
                <use href="./img/symbol-defs2.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </span>
           </label>
            
 
-          <label class="contact-form-field contract-terms1" for="mail">Почта
+          <label class="contact-form-field" for="mail">
+            <span class="contract-terms1">Почта</span>
             <span class="contacts-input-wrapper">
               <input class="contacts-input" type="email" name="mail" id="mail">
-              <svg class="icon" width="15" height="12">
+              <svg class="icon" width="18" height="18">
                <use href="./img/symbol-defs2.svg#icon-email-black-18dp-1"></use>
               </svg>
             </span> 
@@ -443,12 +446,12 @@
            
 
 
-          <label class="contact-form-field contract-terms1" for="comment">Комментарий</label>
+          <label class="contact-form-field" for="comment"><span class="contract-terms1">Комментарий</span></label>
           <textarea class="contact-form-comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
 
           
           <input type="checkbox" name="policy" id="policy" class="contact-form-check-policy visually-hidden">
-          <label class="contact-form-policy contract-terms1" for="policy">Соглашаюсь с рассылкой и принимаю
+          <label class="contact-form-policy contract-terms2" for="policy">Соглашаюсь с рассылкой и принимаю
             <a class="contract-terms" href="">Условия договора</a>
           </label>
           
