@@ -740,6 +740,14 @@ margin-right: 0px;
   color: #ffffff;
 }
 
+.subscribtion-footer::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+}
+
 .subscribtion-button-footer {
   display: flex;
   justify-content: center;
