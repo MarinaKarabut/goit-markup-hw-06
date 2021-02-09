@@ -911,8 +911,7 @@ color: var(--accent-color);
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
-  width: 13px;
-  height: 13px;
+  
 }
     
 .contacts-input:focus {
