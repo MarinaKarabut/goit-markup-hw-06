@@ -952,6 +952,9 @@ color: var(--accent-color);
 }
 
 .contact-form-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
 .contact-form-policy::before {
@@ -965,7 +968,7 @@ color: var(--accent-color);
   background-image: url(../img/Vector.svg);
   background-repeat: no-repeat;
   background-position: center;
-  vertical-align: text-top;
+  vertical-align: text-bottom;
 }
 
 .contact-form-check-policy:checked + .contact-form-policy::before {
