@@ -679,12 +679,11 @@ margin-right: 0px;
 }
 .container-footer-adress {
   text-align: left;
-  
+  width: 231px;
 }
 .container-social-link {
   text-align: left;
-
-  
+  width: 206px;
 }
 
 .container-social-link .icon-button {
@@ -709,7 +708,7 @@ margin-right: 0px;
 
 .subscribtion {
   text-align: left;
-  
+  width: 570px;
 }
 
 .subscribtion .title {
